@@ -1,0 +1,178 @@
+ .head{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+ }
+ .btnp{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+ }
+ .btnc{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+ }
+ .secb{
+    text-align: center;
+    
+ }
+ .secb h1{
+    margin: 30px 0px 30px 0px;
+ }
+ .secb p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+ .banner{
+    margin: 60px 0px 60px 0px;
+    padding: 20px 0 20px 0;
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: center;
+ }
+ .secb img{
+    background-image: center;
+ }
+ .heding{
+    margin: 50px 0px 20px 0px;
+    text-align: center;
+ }
+ .sectwo{
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin: 100px 0px 30px 0px;
+    display: flex;
+ }
+ .sect{
+    margin-right: 70px;
+ }
+ .secbtn{
+    margin-top: 40px;
+    padding: 10px 10px;
+ }
+ .sect h4{
+    margin-top: 20px;
+ }
+ .sect p{
+    margin-top: 20px;
+ }
+ .sect2{
+    margin-left: 70px;
+ }
+ .sect3{
+    margin-right: 70px;
+ }
+ .video{
+    margin: 60px 0px 60px 0px;
+ }
+ .videos{
+    width: 950px;
+    margin: 0 auto;
+ }
+ .video iframe{
+    border-radius: 16px;
+    background: url(Jhankar);
+ }
+ .threbox{
+    margin: 100px auto;
+    width: 1000px;
+    display: flex;
+ }
+ .threbox a{
+    color: black;
+ }
+ .box{
+    border-radius: 16px;
+ }
+ .box1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 20 10px ;
+    margin: 0 30px;
+ }
+ .box img{
+    margin-top: 30px;    
+ }
+ .box2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 10px 10px ;
+    margin: 0 ;
+ }
+ .box img{
+    margin-top: 30px;    
+ }
+ .box3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 20 10px ;
+    margin: 0 30px;
+ }
+ .box img, h3, p, a{
+    padding-left: 10px;
+    margin-top: 30px;    
+ }
+.support{
+    
+    margin: 100px 0px 60px 0px;
+    text-align: center;
+}
+div .eml{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 10px 120px;
+}
+div .emlb{
+    font-size: bold;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+.sup{
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 950px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+}
+.text{
+    padding: 40px 0px;
+    
+}
+.text h1{
+    color: white;
+}
+.text p{
+    margin-bottom: 25px;
+    color: rgb(184, 177, 177);
+}footer{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer .icons{
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+}
