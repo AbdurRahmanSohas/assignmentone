@@ -2,6 +2,8 @@
     display: flex;
     text-align: center;
     justify-content: space-between;
+    width: 980px;
+    margin: 0 auto;
  }
  .btnp{
     text-align: center;
@@ -25,6 +27,10 @@
     background-color: black;
     color: white;
  }
+ .boxsh{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+ }
  .secb{
     text-align: center;
     
@@ -42,21 +48,28 @@
     background-image: url(../assets/Hero-bg.png);
     background-repeat: center;
  }
+ .bgs{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+ }
+ .bgg{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    padding: 0px 20px;
+ }
  .secb img{
     background-image: center;
  }
  .heding{
-    margin: 80px 0px 80px 0px;
+    margin: 80px 0px 90px 0px;
     text-align: center;
  }
  .sectwo{
     display: flex;
     justify-content: center;
-    border-radius: 16px;
-
-background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    margin: 100px 0px 30px 0px;
+    margin: -30px 0px 30px 0px;
     display: flex;
+    padding: 70px 0px;
  }
  .sect{
     margin-right: 70px;
@@ -81,8 +94,12 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
     margin: 60px 0px 60px 0px;
  }
  .videos{
+    border-radius: 16px;
+    border: 1px solid rgb(68, 63, 63);
     width: 950px;
     margin: 0 auto;
+    padding: 10px;
+
  }
  .video iframe{
     border-radius: 16px;
@@ -165,7 +182,7 @@ div .emlb{
     background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
 }
 .text{
-    padding: 40px 0px;
+    padding: 0px 0px;
     
 }
 .text h1{
@@ -175,14 +192,18 @@ div .emlb{
     margin-bottom: 25px;
     color: rgb(184, 177, 177);
 }footer{
+    
+    background: rgba(13, 19, 33, 0.03);
+    
+}
+.content .icons{
+    text-align: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+footer .content{
     width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    
-}
-footer .icons{
-    text-align: center;
-    justify-content: center;
-    margin-top: 40px;
 }
