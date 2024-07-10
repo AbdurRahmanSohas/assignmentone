@@ -51,7 +51,6 @@
     background-repeat: center;
  }
  .bgs{
-    border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
  }
  .bgg{
@@ -62,10 +61,20 @@
  .secb img{
     background-image: center;
  }
+ .alls{
+   text-align: center;
+   background: rgba(13, 19, 33, 0.02)
+ }
+ .alls h1{
+   padding-top: 20px;
+ }
+ .allsec{
+   width: 1000px;
+   margin: 0px auto;
+ }
  .heding{
-    
-    margin: 80px 0px 90px 0px;
     text-align: center;
+    margin: 100px 0px 100px 0px;
  }
  .heding p{
     opacity: 0.7;
@@ -78,7 +87,7 @@
  .sectwo{
     display: flex;
     justify-content: center;
-    margin: -30px 0px 30px 0px;
+    margin: -16px 0px 16px 0px;
     display: flex;
     padding: 70px 0px;
  }
@@ -88,10 +97,7 @@
  .secbtn{
     color: rgba(13, 19, 33, 0.7);
     border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-Stroke
-RGB
-
+    opacity: 0.7;
     margin-top: 40px;
     padding: 10px 10px;
  }
@@ -263,3 +269,4 @@ footer .content{
     display: flex;
     justify-content: space-between;
 }
+
