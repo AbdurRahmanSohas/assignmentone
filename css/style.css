@@ -36,6 +36,8 @@
     
  }
  .secb h1{
+    font-size: 48px;
+    font-weight: 800;
     margin: 30px 0px 30px 0px;
  }
  .secb p{
@@ -61,8 +63,17 @@
     background-image: center;
  }
  .heding{
+    
     margin: 80px 0px 90px 0px;
     text-align: center;
+ }
+ .heding p{
+    opacity: 0.7;
+
+ }
+ .heding h1{
+    font-size: 32px;
+    font-weight: 800;
  }
  .sectwo{
     display: flex;
@@ -75,20 +86,63 @@
     margin-right: 70px;
  }
  .secbtn{
+    color: rgba(13, 19, 33, 0.7);
+    border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+Stroke
+RGB
+
     margin-top: 40px;
     padding: 10px 10px;
  }
  .sect h4{
+    
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
     margin-top: 20px;
  }
  .sect p{
+    opacity: 0.7;
+    color: rgba(13, 19, 33, 0.7);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
     margin-top: 20px;
  }
  .sect2{
     margin-left: 70px;
  }
+ .sect2 h4{
+    
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+ }
+ .sect2 p{
+    opacity: 0.7;
+    color: rgba(13, 19, 33, 0.7);
+    opacity: 0.7;
+
+ }
  .sect3{
     margin-right: 70px;
+ }
+ .sect3 h4{
+    
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+ }
+ .sect3 p{
+    opacity: 0.7;
+    color: rgba(13, 19, 33, 0.7);
+    opacity: 0.7;
+
  }
  .video{
     margin: 60px 0px 60px 0px;
@@ -186,7 +240,9 @@ div .emlb{
     
 }
 .text h1{
-    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
 }
 .text p{
     margin-bottom: 25px;
